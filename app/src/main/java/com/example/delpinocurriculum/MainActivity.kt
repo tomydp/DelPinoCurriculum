@@ -1,6 +1,8 @@
 package com.example.delpinocurriculum
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,6 +19,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-
+        val btnMasInfo = findViewById<Button>(R.id.btnInfo)
+        btnMasInfo.setOnClickListener {
+            startActivity(Intent(this, SecondActivity::class.java))
+        }
     }
 }

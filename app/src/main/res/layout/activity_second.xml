@@ -8,7 +8,7 @@
     tools:context=".SecondActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgStudie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/ic_studies" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgSkill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
         app:srcCompat="@drawable/ic_skills" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgExperiencie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
