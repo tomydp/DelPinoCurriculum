@@ -1,4 +1,4 @@
-Curricukum en Android Studio
+Curriculum en Android Studio
 
 Aplicación mobile de Android de mi curriculum donde una pagina interactua con otra para ver mas información mediante un boton.
 
